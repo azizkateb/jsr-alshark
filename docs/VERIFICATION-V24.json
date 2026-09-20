@@ -1,0 +1,696 @@
+{
+  "results": [
+    {
+      "width": 1568,
+      "overflow": false,
+      "form": {
+        "x": 124,
+        "y": 128.578125,
+        "width": 630,
+        "right": 754,
+        "bottom": 1071.25
+      },
+      "details": {
+        "x": 814,
+        "y": 128.578125,
+        "width": 630,
+        "right": 1444,
+        "bottom": 1051.421875
+      },
+      "map": {
+        "x": 839,
+        "y": 620.53125,
+        "width": 580,
+        "right": 1419,
+        "bottom": 946.78125
+      },
+      "button": {
+        "x": 159,
+        "y": 851.0625,
+        "width": 560,
+        "right": 719,
+        "bottom": 906.0625
+      },
+      "phone": [
+        [
+          "0599510111",
+          "tel:+966599510111"
+        ],
+        [
+          "0530720010",
+          "tel:+966530720010"
+        ]
+      ],
+      "address": "الرياض، المملكة العربية السعودية",
+      "mapURL": "https://www.google.com/maps?q=%D9%85%D9%83%D8%AA%D8%A8+%D8%A7%D8%B3%D8%AA%D9%82%D8%AF%D8%A7%D9%85+%D8%AC%D8%B3%D8%B1+%D8%A7%D9%84%D8%B4%D8%B1%D9%82+%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D9%82%D8%AF%D8%A7%D9%85%D8%8C+4544%D8%8C+%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6+13325&ftid=0x3e2ee48f82e91851%3A0x7650580c1148193e&output=embed&hl=ar&z=16",
+      "inputs": [
+        {
+          "name": "name",
+          "x": 159,
+          "y": 300.0625,
+          "width": 560,
+          "right": 719,
+          "bottom": 356.0625
+        },
+        {
+          "name": "phone",
+          "x": 159,
+          "y": 400.0625,
+          "width": 560,
+          "right": 719,
+          "bottom": 456.0625
+        },
+        {
+          "name": "email",
+          "x": 159,
+          "y": 500.0625,
+          "width": 560,
+          "right": 719,
+          "bottom": 556.0625
+        },
+        {
+          "name": "subject",
+          "x": 159,
+          "y": 600.0625,
+          "width": 560,
+          "right": 719,
+          "bottom": 656.0625
+        },
+        {
+          "name": "message",
+          "x": 159,
+          "y": 700.0625,
+          "width": 560,
+          "right": 719,
+          "bottom": 828.0625
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "overflow": false,
+      "form": {
+        "x": 48,
+        "y": 129.046875,
+        "width": 605,
+        "right": 653,
+        "bottom": 1071.71875
+      },
+      "details": {
+        "x": 713,
+        "y": 129.046875,
+        "width": 605,
+        "right": 1318,
+        "bottom": 1037.828125
+      },
+      "map": {
+        "x": 738,
+        "y": 621,
+        "width": 555,
+        "right": 1293,
+        "bottom": 933.1875
+      },
+      "button": {
+        "x": 83,
+        "y": 851.53125,
+        "width": 535,
+        "right": 618,
+        "bottom": 906.53125
+      },
+      "phone": [
+        [
+          "0599510111",
+          "tel:+966599510111"
+        ],
+        [
+          "0530720010",
+          "tel:+966530720010"
+        ]
+      ],
+      "address": "الرياض، المملكة العربية السعودية",
+      "mapURL": "https://www.google.com/maps?q=%D9%85%D9%83%D8%AA%D8%A8+%D8%A7%D8%B3%D8%AA%D9%82%D8%AF%D8%A7%D9%85+%D8%AC%D8%B3%D8%B1+%D8%A7%D9%84%D8%B4%D8%B1%D9%82+%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D9%82%D8%AF%D8%A7%D9%85%D8%8C+4544%D8%8C+%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6+13325&ftid=0x3e2ee48f82e91851%3A0x7650580c1148193e&output=embed&hl=ar&z=16",
+      "inputs": [
+        {
+          "name": "name",
+          "x": 83,
+          "y": 300.53125,
+          "width": 535,
+          "right": 618,
+          "bottom": 356.53125
+        },
+        {
+          "name": "phone",
+          "x": 83,
+          "y": 400.53125,
+          "width": 535,
+          "right": 618,
+          "bottom": 456.53125
+        },
+        {
+          "name": "email",
+          "x": 83,
+          "y": 500.53125,
+          "width": 535,
+          "right": 618,
+          "bottom": 556.53125
+        },
+        {
+          "name": "subject",
+          "x": 83,
+          "y": 600.53125,
+          "width": 535,
+          "right": 618,
+          "bottom": 656.53125
+        },
+        {
+          "name": "message",
+          "x": 83,
+          "y": 700.53125,
+          "width": 535,
+          "right": 618,
+          "bottom": 828.53125
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "form": {
+        "x": 32,
+        "y": 132.03125,
+        "width": 464,
+        "right": 496,
+        "bottom": 1068.703125
+      },
+      "details": {
+        "x": 528,
+        "y": 132.03125,
+        "width": 464,
+        "right": 992,
+        "bottom": 958
+      },
+      "map": {
+        "x": 549,
+        "y": 619.984375,
+        "width": 422,
+        "right": 971,
+        "bottom": 857.359375
+      },
+      "button": {
+        "x": 57,
+        "y": 848.515625,
+        "width": 414,
+        "right": 471,
+        "bottom": 903.515625
+      },
+      "phone": [
+        [
+          "0599510111",
+          "tel:+966599510111"
+        ],
+        [
+          "0530720010",
+          "tel:+966530720010"
+        ]
+      ],
+      "address": "الرياض، المملكة العربية السعودية",
+      "mapURL": "https://www.google.com/maps?q=%D9%85%D9%83%D8%AA%D8%A8+%D8%A7%D8%B3%D8%AA%D9%82%D8%AF%D8%A7%D9%85+%D8%AC%D8%B3%D8%B1+%D8%A7%D9%84%D8%B4%D8%B1%D9%82+%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D9%82%D8%AF%D8%A7%D9%85%D8%8C+4544%D8%8C+%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6+13325&ftid=0x3e2ee48f82e91851%3A0x7650580c1148193e&output=embed&hl=ar&z=16",
+      "inputs": [
+        {
+          "name": "name",
+          "x": 57,
+          "y": 297.515625,
+          "width": 414,
+          "right": 471,
+          "bottom": 353.515625
+        },
+        {
+          "name": "phone",
+          "x": 57,
+          "y": 397.515625,
+          "width": 414,
+          "right": 471,
+          "bottom": 453.515625
+        },
+        {
+          "name": "email",
+          "x": 57,
+          "y": 497.515625,
+          "width": 414,
+          "right": 471,
+          "bottom": 553.515625
+        },
+        {
+          "name": "subject",
+          "x": 57,
+          "y": 597.515625,
+          "width": 414,
+          "right": 471,
+          "bottom": 653.515625
+        },
+        {
+          "name": "message",
+          "x": 57,
+          "y": 697.515625,
+          "width": 414,
+          "right": 471,
+          "bottom": 825.515625
+        }
+      ]
+    },
+    {
+      "width": 834,
+      "overflow": false,
+      "form": {
+        "x": 32,
+        "y": 137.34375,
+        "width": 369,
+        "right": 401,
+        "bottom": 1061.875
+      },
+      "details": {
+        "x": 433,
+        "y": 137.34375,
+        "width": 369,
+        "right": 802,
+        "bottom": 939.375
+      },
+      "map": {
+        "x": 454,
+        "y": 609.15625,
+        "width": 327,
+        "right": 781,
+        "bottom": 793.09375
+      },
+      "button": {
+        "x": 57,
+        "y": 841.6875,
+        "width": 319,
+        "right": 376,
+        "bottom": 896.6875
+      },
+      "phone": [
+        [
+          "0599510111",
+          "tel:+966599510111"
+        ],
+        [
+          "0530720010",
+          "tel:+966530720010"
+        ]
+      ],
+      "address": "الرياض، المملكة العربية السعودية",
+      "mapURL": "https://www.google.com/maps?q=%D9%85%D9%83%D8%AA%D8%A8+%D8%A7%D8%B3%D8%AA%D9%82%D8%AF%D8%A7%D9%85+%D8%AC%D8%B3%D8%B1+%D8%A7%D9%84%D8%B4%D8%B1%D9%82+%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D9%82%D8%AF%D8%A7%D9%85%D8%8C+4544%D8%8C+%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6+13325&ftid=0x3e2ee48f82e91851%3A0x7650580c1148193e&output=embed&hl=ar&z=16",
+      "inputs": [
+        {
+          "name": "name",
+          "x": 57,
+          "y": 290.6875,
+          "width": 319,
+          "right": 376,
+          "bottom": 346.6875
+        },
+        {
+          "name": "phone",
+          "x": 57,
+          "y": 390.6875,
+          "width": 319,
+          "right": 376,
+          "bottom": 446.6875
+        },
+        {
+          "name": "email",
+          "x": 57,
+          "y": 490.6875,
+          "width": 319,
+          "right": 376,
+          "bottom": 546.6875
+        },
+        {
+          "name": "subject",
+          "x": 57,
+          "y": 590.6875,
+          "width": 319,
+          "right": 376,
+          "bottom": 646.6875
+        },
+        {
+          "name": "message",
+          "x": 57,
+          "y": 690.6875,
+          "width": 319,
+          "right": 376,
+          "bottom": 818.6875
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "form": {
+        "x": 32,
+        "y": 137.734375,
+        "width": 336,
+        "right": 368,
+        "bottom": 1062.265625
+      },
+      "details": {
+        "x": 400,
+        "y": 137.734375,
+        "width": 336,
+        "right": 736,
+        "bottom": 939.203125
+      },
+      "map": {
+        "x": 421,
+        "y": 627.546875,
+        "width": 294,
+        "right": 715,
+        "bottom": 792.921875
+      },
+      "button": {
+        "x": 57,
+        "y": 842.078125,
+        "width": 286,
+        "right": 343,
+        "bottom": 897.078125
+      },
+      "phone": [
+        [
+          "0599510111",
+          "tel:+966599510111"
+        ],
+        [
+          "0530720010",
+          "tel:+966530720010"
+        ]
+      ],
+      "address": "الرياض، المملكة العربية السعودية",
+      "mapURL": "https://www.google.com/maps?q=%D9%85%D9%83%D8%AA%D8%A8+%D8%A7%D8%B3%D8%AA%D9%82%D8%AF%D8%A7%D9%85+%D8%AC%D8%B3%D8%B1+%D8%A7%D9%84%D8%B4%D8%B1%D9%82+%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D9%82%D8%AF%D8%A7%D9%85%D8%8C+4544%D8%8C+%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6+13325&ftid=0x3e2ee48f82e91851%3A0x7650580c1148193e&output=embed&hl=ar&z=16",
+      "inputs": [
+        {
+          "name": "name",
+          "x": 57,
+          "y": 291.078125,
+          "width": 286,
+          "right": 343,
+          "bottom": 347.078125
+        },
+        {
+          "name": "phone",
+          "x": 57,
+          "y": 391.078125,
+          "width": 286,
+          "right": 343,
+          "bottom": 447.078125
+        },
+        {
+          "name": "email",
+          "x": 57,
+          "y": 491.078125,
+          "width": 286,
+          "right": 343,
+          "bottom": 547.078125
+        },
+        {
+          "name": "subject",
+          "x": 57,
+          "y": 591.078125,
+          "width": 286,
+          "right": 343,
+          "bottom": 647.078125
+        },
+        {
+          "name": "message",
+          "x": 57,
+          "y": 691.078125,
+          "width": 286,
+          "right": 343,
+          "bottom": 819.078125
+        }
+      ]
+    },
+    {
+      "width": 767,
+      "overflow": false,
+      "form": {
+        "x": 18,
+        "y": 632.953125,
+        "width": 731,
+        "right": 749,
+        "bottom": 1555.484375
+      },
+      "details": {
+        "x": 18,
+        "y": -354.890625,
+        "width": 731,
+        "right": 749,
+        "bottom": 594.953125
+      },
+      "map": {
+        "x": 37,
+        "y": 106.5,
+        "width": 693,
+        "right": 730,
+        "bottom": 496.3125
+      },
+      "button": {
+        "x": 39,
+        "y": 1336.296875,
+        "width": 689,
+        "right": 728,
+        "bottom": 1391.296875
+      },
+      "phone": [
+        [
+          "0599510111",
+          "tel:+966599510111"
+        ],
+        [
+          "0530720010",
+          "tel:+966530720010"
+        ]
+      ],
+      "address": "الرياض، المملكة العربية السعودية",
+      "mapURL": "https://www.google.com/maps?q=%D9%85%D9%83%D8%AA%D8%A8+%D8%A7%D8%B3%D8%AA%D9%82%D8%AF%D8%A7%D9%85+%D8%AC%D8%B3%D8%B1+%D8%A7%D9%84%D8%B4%D8%B1%D9%82+%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D9%82%D8%AF%D8%A7%D9%85%D8%8C+4544%D8%8C+%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6+13325&ftid=0x3e2ee48f82e91851%3A0x7650580c1148193e&output=embed&hl=ar&z=16",
+      "inputs": [
+        {
+          "name": "name",
+          "x": 39,
+          "y": 785.296875,
+          "width": 689,
+          "right": 728,
+          "bottom": 841.296875
+        },
+        {
+          "name": "phone",
+          "x": 39,
+          "y": 885.296875,
+          "width": 689,
+          "right": 728,
+          "bottom": 941.296875
+        },
+        {
+          "name": "email",
+          "x": 39,
+          "y": 985.296875,
+          "width": 689,
+          "right": 728,
+          "bottom": 1041.296875
+        },
+        {
+          "name": "subject",
+          "x": 39,
+          "y": 1085.296875,
+          "width": 689,
+          "right": 728,
+          "bottom": 1141.296875
+        },
+        {
+          "name": "message",
+          "x": 39,
+          "y": 1185.296875,
+          "width": 689,
+          "right": 728,
+          "bottom": 1313.296875
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "form": {
+        "x": 18,
+        "y": 549.90625,
+        "width": 354,
+        "right": 372,
+        "bottom": 1472.4375
+      },
+      "details": {
+        "x": 18,
+        "y": -271.515625,
+        "width": 354,
+        "right": 372,
+        "bottom": 511.90625
+      },
+      "map": {
+        "x": 37,
+        "y": 189.875,
+        "width": 316,
+        "right": 353,
+        "bottom": 367.625
+      },
+      "button": {
+        "x": 39,
+        "y": 1253.25,
+        "width": 312,
+        "right": 351,
+        "bottom": 1308.25
+      },
+      "phone": [
+        [
+          "0599510111",
+          "tel:+966599510111"
+        ],
+        [
+          "0530720010",
+          "tel:+966530720010"
+        ]
+      ],
+      "address": "الرياض، المملكة العربية السعودية",
+      "mapURL": "https://www.google.com/maps?q=%D9%85%D9%83%D8%AA%D8%A8+%D8%A7%D8%B3%D8%AA%D9%82%D8%AF%D8%A7%D9%85+%D8%AC%D8%B3%D8%B1+%D8%A7%D9%84%D8%B4%D8%B1%D9%82+%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D9%82%D8%AF%D8%A7%D9%85%D8%8C+4544%D8%8C+%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6+13325&ftid=0x3e2ee48f82e91851%3A0x7650580c1148193e&output=embed&hl=ar&z=16",
+      "inputs": [
+        {
+          "name": "name",
+          "x": 39,
+          "y": 702.25,
+          "width": 312,
+          "right": 351,
+          "bottom": 758.25
+        },
+        {
+          "name": "phone",
+          "x": 39,
+          "y": 802.25,
+          "width": 312,
+          "right": 351,
+          "bottom": 858.25
+        },
+        {
+          "name": "email",
+          "x": 39,
+          "y": 902.25,
+          "width": 312,
+          "right": 351,
+          "bottom": 958.25
+        },
+        {
+          "name": "subject",
+          "x": 39,
+          "y": 1002.25,
+          "width": 312,
+          "right": 351,
+          "bottom": 1058.25
+        },
+        {
+          "name": "message",
+          "x": 39,
+          "y": 1102.25,
+          "width": 312,
+          "right": 351,
+          "bottom": 1230.25
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "form": {
+        "x": 18,
+        "y": 544.90625,
+        "width": 284,
+        "right": 302,
+        "bottom": 1489.03125
+      },
+      "details": {
+        "x": 18,
+        "y": -289.515625,
+        "width": 284,
+        "right": 302,
+        "bottom": 506.90625
+      },
+      "map": {
+        "x": 37,
+        "y": 224.25,
+        "width": 246,
+        "right": 283,
+        "bottom": 362.625
+      },
+      "button": {
+        "x": 39,
+        "y": 1248.25,
+        "width": 242,
+        "right": 281,
+        "bottom": 1303.25
+      },
+      "phone": [
+        [
+          "0599510111",
+          "tel:+966599510111"
+        ],
+        [
+          "0530720010",
+          "tel:+966530720010"
+        ]
+      ],
+      "address": "الرياض، المملكة العربية السعودية",
+      "mapURL": "https://www.google.com/maps?q=%D9%85%D9%83%D8%AA%D8%A8+%D8%A7%D8%B3%D8%AA%D9%82%D8%AF%D8%A7%D9%85+%D8%AC%D8%B3%D8%B1+%D8%A7%D9%84%D8%B4%D8%B1%D9%82+%D9%84%D9%84%D8%A7%D8%B3%D8%AA%D9%82%D8%AF%D8%A7%D9%85%D8%8C+4544%D8%8C+%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6+13325&ftid=0x3e2ee48f82e91851%3A0x7650580c1148193e&output=embed&hl=ar&z=16",
+      "inputs": [
+        {
+          "name": "name",
+          "x": 39,
+          "y": 697.25,
+          "width": 242,
+          "right": 281,
+          "bottom": 753.25
+        },
+        {
+          "name": "phone",
+          "x": 39,
+          "y": 797.25,
+          "width": 242,
+          "right": 281,
+          "bottom": 853.25
+        },
+        {
+          "name": "email",
+          "x": 39,
+          "y": 897.25,
+          "width": 242,
+          "right": 281,
+          "bottom": 953.25
+        },
+        {
+          "name": "subject",
+          "x": 39,
+          "y": 997.25,
+          "width": 242,
+          "right": 281,
+          "bottom": 1053.25
+        },
+        {
+          "name": "message",
+          "x": 39,
+          "y": 1097.25,
+          "width": 242,
+          "right": 281,
+          "bottom": 1225.25
+        }
+      ]
+    }
+  ],
+  "hero": "PASS: three photos, storefront first, ~4s autoplay/progress, no pause control",
+  "form": "PASS: direct WhatsApp handoff intercepted (no messages sent), full encoded fields, Arabic digits, invalid phone guard, optional email, no extra link",
+  "studio": "PASS: contact design, v22 backup import/photo migration, saved local text and original phone",
+  "limits": "External font/map network requests blocked; studio test fixture removes those network elements only. Live map loading and Astro build not tested."
+}

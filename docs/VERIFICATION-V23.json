@@ -1,0 +1,143 @@
+{
+  "results": [
+    {
+      "width": 1568,
+      "overflow": false,
+      "image": {
+        "x": 144,
+        "y": 319.921875,
+        "bottom": 755.671875,
+        "right": 876.078125,
+        "cy": 537.796875
+      },
+      "copy": {
+        "x": 972.078125,
+        "y": 233.484375,
+        "bottom": 842.109375,
+        "right": 1424,
+        "cy": 537.796875
+      },
+      "controls": {
+        "x": 684.078125,
+        "y": 778.671875,
+        "bottom": 822.671875,
+        "right": 876.078125,
+        "cy": 800.671875
+      },
+      "loaded": true,
+      "paused": "true"
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "image": {
+        "x": 40,
+        "y": 379.578125,
+        "bottom": 683.21875,
+        "right": 550.125,
+        "cy": 531.3984375
+      },
+      "copy": {
+        "x": 606.125,
+        "y": 233.484375,
+        "bottom": 829.328125,
+        "right": 984,
+        "cy": 531.40625
+      },
+      "controls": {
+        "x": 358.125,
+        "y": 706.21875,
+        "bottom": 750.21875,
+        "right": 550.125,
+        "cy": 728.21875
+      },
+      "loaded": true,
+      "paused": "true"
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "image": {
+        "x": 28,
+        "y": 418.59375,
+        "bottom": 630.609375,
+        "right": 384.1875,
+        "cy": 524.6015625
+      },
+      "copy": {
+        "x": 416.1875,
+        "y": 252.171875,
+        "bottom": 797.046875,
+        "right": 740,
+        "cy": 524.609375
+      },
+      "controls": {
+        "x": 192.1875,
+        "y": 653.609375,
+        "bottom": 697.609375,
+        "right": 384.1875,
+        "cy": 675.609375
+      },
+      "loaded": true,
+      "paused": "true"
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "image": {
+        "x": 20,
+        "y": 255.375,
+        "bottom": 463.703125,
+        "right": 370,
+        "cy": 359.5390625
+      },
+      "copy": {
+        "x": 20,
+        "y": 555.703125,
+        "bottom": 1185.78125,
+        "right": 370,
+        "cy": 870.7421875
+      },
+      "controls": {
+        "x": 20,
+        "y": 483.703125,
+        "bottom": 527.703125,
+        "right": 370,
+        "cy": 505.703125
+      },
+      "loaded": true,
+      "paused": "true"
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "image": {
+        "x": 20,
+        "y": 255.375,
+        "bottom": 422.03125,
+        "right": 300,
+        "cy": 338.703125
+      },
+      "copy": {
+        "x": 20,
+        "y": 514.03125,
+        "bottom": 1162.734375,
+        "right": 300,
+        "cy": 838.3828125
+      },
+      "controls": {
+        "x": 20,
+        "y": 442.03125,
+        "bottom": 486.03125,
+        "right": 300,
+        "cy": 464.03125
+      },
+      "loaded": true,
+      "paused": "true"
+    }
+  ],
+  "timing": "PASS: progress at ~2s, advance at ~4s",
+  "controls": "PASS: no pause button; indicators, keyboard, swipe, hover/focus/offscreen handling",
+  "studio": "PASS: no pause button, four images, manual navigation, v22 import, single-image fallback",
+  "limits": "No Astro build. External fonts/maps blocked; removed font links/map iframe in studio test fixture to prevent sandbox loading stall. Fallback fonts used."
+}

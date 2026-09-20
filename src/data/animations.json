@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "duration": 0.9,
+  "stagger": 0.08,
+  "start": 90
+}

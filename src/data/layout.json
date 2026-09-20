@@ -1,0 +1,108 @@
+{
+  "sections": [
+    {
+      "id": "hero",
+      "label": "صورة المكتب",
+      "enabled": false,
+      "paddingMobile": 24,
+      "paddingDesktop": 24,
+      "background": "background"
+    },
+    {
+      "id": "about",
+      "label": "من نحن",
+      "enabled": true,
+      "paddingMobile": 40,
+      "paddingDesktop": 36,
+      "background": "background"
+    },
+    {
+      "id": "steps",
+      "label": "خطوات الاستقدام",
+      "enabled": true,
+      "paddingMobile": 40,
+      "paddingDesktop": 36,
+      "background": "background"
+    },
+    {
+      "id": "why",
+      "label": "لماذا نحن",
+      "enabled": true,
+      "paddingMobile": 40,
+      "paddingDesktop": 36,
+      "background": "surface"
+    },
+    {
+      "id": "services",
+      "label": "الخدمات",
+      "enabled": true,
+      "paddingMobile": 40,
+      "paddingDesktop": 36,
+      "background": "background"
+    },
+    {
+      "id": "cvs",
+      "label": "الجنسيات والسير الذاتية",
+      "enabled": true,
+      "paddingMobile": 40,
+      "paddingDesktop": 36,
+      "background": "background"
+    },
+    {
+      "id": "cta",
+      "label": "دعوة التواصل",
+      "enabled": true,
+      "paddingMobile": 40,
+      "paddingDesktop": 32,
+      "background": "primary"
+    },
+    {
+      "id": "news",
+      "label": "أخبار المكتب",
+      "enabled": true,
+      "paddingMobile": 40,
+      "paddingDesktop": 36,
+      "background": "background"
+    },
+    {
+      "id": "contact",
+      "label": "التواصل",
+      "enabled": true,
+      "paddingMobile": 40,
+      "paddingDesktop": 36,
+      "background": "surface"
+    }
+  ],
+  "showHeader": true,
+  "showRibbon": true,
+  "showDate": true,
+  "showFooter": true,
+  "showPhoneButton": true,
+  "showWhatsappButton": true,
+  "showContactForm": true,
+  "showMap": true,
+  "showTicker": false,
+  "showAboutLogo": true,
+  "navigation": [
+    {
+      "label": "من نحن",
+      "target": "about"
+    },
+    {
+      "label": "خدماتنا",
+      "target": "services"
+    },
+    {
+      "label": "السير الذاتية",
+      "target": "cvs"
+    },
+    {
+      "label": "الأخبار",
+      "target": "news"
+    },
+    {
+      "label": "تواصل معنا",
+      "target": "contact"
+    }
+  ]
+}

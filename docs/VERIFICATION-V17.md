@@ -1,0 +1,2 @@
+Passed: CMS validation; inline script syntax; simulated DOM editor interaction tests (seven categories, field coverage, search, local save, v16 import, invalid-import rollback, ZIP export, preview controls, reset); map URL preservation and origin validation; safe v16 migration; idempotency; source-data/media preservation.
+Not performed: actual browser rendering, full Astro build, live Google Maps/Fonts loading, deployment or Pages CMS authentication. The sandbox has no internet access, no installed browser executable and no installed Astro dependencies.

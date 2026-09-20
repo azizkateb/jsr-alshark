@@ -1,0 +1,7 @@
+---
+import {site,copy} from '../lib/content';
+import {mapEmbedUrl} from '../lib/map.js';
+import {renderContact} from '../lib/contact-markup.js';
+const markup=renderContact(site,copy,mapEmbedUrl(site.mapUrl,site.name+' '+site.address));
+---
+<Fragment set:html={markup}/>

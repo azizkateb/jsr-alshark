@@ -1,0 +1,35 @@
+---
+import {site,copy,theme,layout,waLink} from '../lib/content';
+import {assetUrl,webUrl} from '../lib/urls';
+import {aboutTitleParts,aboutFeatureLabels,aboutFeatureIcons} from '../lib/about-data.js';
+const slides=[{image:site.heroImage,alt:site.heroAlt},...site.heroSlides];
+const title=aboutTitleParts(site.aboutTitle);
+const contactEnabled=layout.sections.some(s=>s.id==='contact'&&s.enabled);
+---
+<section class="section about-editorial" id="about" data-section="about" style={`--about-heading-scale:${theme.headingScale}`}>
+ <div class="section-motion-content">
+  <div class="about-grid">
+   <figure class="about-media hero-slider" data-hero-slider role="region" aria-roledescription="عرض شرائح" aria-label="صور المكتب">
+    <div class="about-photo-shell" data-about-reveal="image">{slides.map((slide,i)=><div class:list={['hero-slide',{'is-current':i===0}]} data-hero-slide role="group" aria-roledescription="شريحة" aria-label={`${i+1} / ${slides.length}`} aria-hidden={i!==0}><img class="about-photo" data-about-photo={i===0?'':undefined} src={assetUrl(slide.image)} alt={slide.alt} width="1568" height="934" loading="eager" fetchpriority={i===0?'high':'low'} decoding="async"/></div>)}</div>
+    <a class="about-location" data-about-map href={webUrl(site.mapUrl)} target="_blank" rel="noopener noreferrer" data-about-reveal="card" aria-label={`موقع ${site.name} على خرائط Google`}>
+     <span class="about-location-pin" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+     <span><strong data-about-address>{site.address}</strong><small>موقع المكتب على خرائط Google</small></span>
+     <svg class="about-location-arrow" aria-hidden="true" viewBox="0 0 24 24"><path d="M19 12H5m6-6-6 6 6 6"/></svg>
+    </a>
+    <div class="hero-slider-controls" hidden={slides.length<2}>
+     <div class="hero-slider-indicators" role="group" aria-label="اختيار الصورة">{slides.map((slide,i)=><button type="button" class="hero-slide-indicator" data-slide-to={i} aria-label={`عرض الصورة ${i+1}: ${slide.alt}`} aria-current={i===0?'true':'false'}><span class="hero-progress-track" aria-hidden="true"><span class="hero-progress-fill"></span></span></button>)}</div>
+    </div><span class="hero-slider-status" aria-live="polite" aria-atomic="true"></span>
+   </figure>
+   <div class="about-copy" data-about-reveal="copy">
+    <span class="about-badge eyebrow">{copy.text003}</span>
+    <h1 class="about-heading"><span class="about-name">{title.name}</span>{title.service && <><span class="about-service">{title.service}</span></>}</h1>
+    <p id="about-text">{site.about}</p>
+    <ul class="about-features" aria-label="خدمات المكتب">
+     {aboutFeatureLabels.map((label,i)=><li class="about-feature"><span class="about-feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d={aboutFeatureIcons[i]}/></svg></span><span class="about-feature-label">{label}</span></li>)}
+    </ul>
+    <a class="about-cta" href={contactEnabled?'#contact':waLink()} {...(!contactEnabled?{target:'_blank',rel:'noopener noreferrer'}:{})}><span>{copy.text006}</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5m6-6-6 6 6 6"/></svg></a>
+    <div class="large-brand about-signature"><img data-brand-image src={assetUrl(site.logo)} alt={site.name} width="120" height="103"/><div><strong>{site.name}</strong><small dir="ltr" lang="en">{site.englishName}</small></div></div>
+   </div>
+  </div>
+ </div>
+</section>

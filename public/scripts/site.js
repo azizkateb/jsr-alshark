@@ -1,0 +1,15 @@
+const runtime=JSON.parse(document.getElementById('site-runtime')?.textContent||'{}');
+const ui=runtime.copy||{};
+
+const menu=document.getElementById('menu');const openButton=document.getElementById('menu-open');let lastFocus;
+openButton.addEventListener('click',()=>{lastFocus=document.activeElement;menu.showModal();document.body.style.overflow='hidden'});
+function closeMenu(){menu.close()};document.getElementById('menu-close').addEventListener('click',closeMenu);
+menu.addEventListener('close',()=>{document.body.style.overflow='';lastFocus?.focus()});menu.addEventListener('click',e=>{if(e.target===menu){const r=menu.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeMenu()}});
+menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
+const today=document.getElementById('today');today.textContent=new Intl.DateTimeFormat('ar-SA-u-ca-gregory',{day:'numeric',month:'long',year:'numeric',timeZone:'Asia/Riyadh'}).format(new Date());document.getElementById('year').textContent=String(new Date().getFullYear());
+const topButton=document.getElementById('back-top');function setTop(){topButton.hidden=window.scrollY<500}window.addEventListener('scroll',setTop,{passive:true});setTop();topButton.addEventListener('click',()=>window.scrollTo({top:0,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'}));
+const form=document.getElementById('contact-form');const result=document.getElementById('form-result');const status=document.getElementById('form-status');if(form){form.addEventListener('input',()=>{result.hidden=true;result.removeAttribute('href');status.textContent=''});
+form.addEventListener('submit',e=>{e.preventDefault();if(!form.reportValidity())return;const f=new FormData(form);const phone=String(f.get('phone')).replace(/[٠-٩]/g,c=>String(c.charCodeAt(0)-1632)).replace(/[۰-۹]/g,c=>String(c.charCodeAt(0)-1776)).replace(/[\s()+-]/g,'');if(!/^\d{8,15}$/.test(phone)){status.textContent=(ui.invalidPhone||'يرجى إدخال رقم تواصل صحيح من 8 إلى 15 رقمًا.');document.getElementById('phone').focus();return}const name=String(f.get('name')).trim(),subject=String(f.get('subject')).trim(),message=String(f.get('message')).trim();if(!name||!subject||!message){status.textContent=(ui.requiredFields||'يرجى تعبئة الحقول المطلوبة، وليس المسافات فقط.');return}const email=String(f.get('email')||'').trim();const text=`${ui.formGreeting||'السلام عليكم'}\n${ui.text026||'الاسم'}: ${name}\n${ui.text027||'رقم التواصل'}: ${phone}${email?'\n'+(ui.text023||'البريد الإلكتروني')+': '+email:''}\n${ui.text028||'الموضوع'}: ${subject}\n${ui.text029||'رسالتك'}: ${message}`;const target='https://wa.me/'+(runtime.whatsapp||'966599510111');const url=target+'?text='+encodeURIComponent(text);result.hidden=true;result.removeAttribute('href');window.open(url,'_blank','noopener,noreferrer');status.textContent='أكمل إرسال الرسالة داخل واتساب.'});
+
+}
+document.querySelectorAll('#jasr-site a[href^="#"]').forEach(a=>{const id=a.getAttribute('href').slice(1);if(id&&!document.getElementById(id))a.hidden=true});

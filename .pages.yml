@@ -1,0 +1,1382 @@
+{
+  "media": {
+    "input": "public/media",
+    "output": "/media",
+    "rename": "safe"
+  },
+  "content": [
+    {
+      "name": "site",
+      "label": "إعدادات الموقع ومحتواه",
+      "type": "file",
+      "path": "src/data/site.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "launchReady",
+          "label": "تفعيل النسخة المعتمدة والفهرسة",
+          "type": "boolean",
+          "description": "لا تفعّله قبل اعتماد النصوص وحقوق الصور واختبار الموقع."
+        },
+        {
+          "name": "name",
+          "label": "اسم المكتب",
+          "type": "string"
+        },
+        {
+          "name": "shortName",
+          "label": "الاسم المختصر",
+          "type": "string"
+        },
+        {
+          "name": "brandSubtitle",
+          "label": "السطر أسفل الاسم",
+          "type": "string"
+        },
+        {
+          "name": "englishName",
+          "label": "الاسم بالإنجليزية",
+          "type": "string"
+        },
+        {
+          "name": "logo",
+          "label": "شعار المكتب",
+          "type": "image",
+          "options": {
+            "extensions": [
+              "jpg",
+              "jpeg",
+              "png",
+              "webp"
+            ],
+            "rename": "safe"
+          }
+        },
+        {
+          "name": "visionLogo",
+          "label": "شعار الرؤية",
+          "type": "image",
+          "options": {
+            "extensions": [
+              "jpg",
+              "jpeg",
+              "png",
+              "webp"
+            ],
+            "rename": "safe"
+          }
+        },
+        {
+          "name": "showVision",
+          "label": "إظهار شعار الرؤية",
+          "type": "boolean"
+        },
+        {
+          "name": "description",
+          "label": "وصف الموقع لمحركات البحث",
+          "type": "text"
+        },
+        {
+          "name": "phones",
+          "label": "أرقام الاتصال",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "display",
+              "label": "الرقم المعروض",
+              "type": "string"
+            },
+            {
+              "name": "international",
+              "label": "الرقم الدولي مثل +966599510111",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "name": "whatsapp",
+          "label": "واتساب دولي بدون +",
+          "type": "string",
+          "pattern": "^[1-9]\\d{7,14}$"
+        },
+        {
+          "name": "email",
+          "label": "البريد الإلكتروني",
+          "type": "string"
+        },
+        {
+          "name": "address",
+          "label": "عنوان المكتب",
+          "type": "string"
+        },
+        {
+          "name": "mapUrl",
+          "label": "رابط خرائط Google",
+          "type": "string"
+        },
+        {
+          "name": "workingHours",
+          "label": "الدوام المعتمد (اختياري)",
+          "type": "string"
+        },
+        {
+          "name": "banner",
+          "label": "الشريط أعلى الصفحة",
+          "type": "string"
+        },
+        {
+          "name": "welcome",
+          "label": "رسالة الترحيب",
+          "type": "string"
+        },
+        {
+          "name": "aboutTitle",
+          "label": "عنوان التعريف",
+          "type": "string"
+        },
+        {
+          "name": "about",
+          "label": "نبذة المكتب",
+          "type": "text"
+        },
+        {
+          "name": "stepsTitle",
+          "label": "عنوان خطوات الاستقدام",
+          "type": "string"
+        },
+        {
+          "name": "stepsIntro",
+          "label": "مقدمة الخطوات",
+          "type": "text"
+        },
+        {
+          "name": "steps",
+          "label": "خطوات الاستقدام",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "title",
+              "label": "العنوان",
+              "type": "string"
+            },
+            {
+              "name": "description",
+              "label": "الوصف",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "whyTitle",
+          "label": "عنوان لماذا نحن",
+          "type": "string"
+        },
+        {
+          "name": "whyIntro",
+          "label": "مقدمة لماذا نحن",
+          "type": "text"
+        },
+        {
+          "name": "benefits",
+          "label": "مميزات التعامل",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "text",
+              "label": "النص",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "services",
+          "label": "الخدمات",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "title",
+              "label": "اسم الخدمة",
+              "type": "string"
+            },
+            {
+              "name": "description",
+              "label": "الوصف",
+              "type": "text"
+            },
+            {
+              "name": "icon",
+              "label": "الأيقونة",
+              "type": "select",
+              "options": {
+                "values": [
+                  "home",
+                  "car",
+                  "file",
+                  "support"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "countries",
+          "label": "جنسيات للاستفسار",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "name",
+              "label": "اسم الدولة",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "flagImage",
+              "label": "صورة العلم (تظهر دائرية)",
+              "type": "image",
+              "required": true,
+              "options": {
+                "extensions": [
+                  "jpg",
+                  "jpeg",
+                  "png",
+                  "webp"
+                ],
+                "rename": "safe"
+              }
+            }
+          ]
+        },
+        {
+          "name": "ctaTitle",
+          "label": "عنوان دعوة التواصل",
+          "type": "string"
+        },
+        {
+          "name": "ctaText",
+          "label": "نص دعوة التواصل",
+          "type": "text"
+        },
+        {
+          "name": "privacyNote",
+          "label": "توضيح بيانات النموذج",
+          "type": "text"
+        },
+        {
+          "name": "heroImage",
+          "label": "صورة واجهة المكتب أعلى الصفحة",
+          "type": "image",
+          "required": true,
+          "options": {
+            "extensions": [
+              "jpg",
+              "jpeg",
+              "png",
+              "webp"
+            ],
+            "rename": "safe"
+          }
+        },
+        {
+          "name": "heroAlt",
+          "label": "وصف الصورة لقارئ الشاشة",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "heroCaption",
+          "label": "التعليق أسفل الصورة",
+          "type": "string"
+        },
+        {
+          "name": "heroSlides",
+          "label": "صور السلايدر الإضافية",
+          "type": "object",
+          "list": true,
+          "description": "تأتي بعد الصورة الرئيسية، وتظهر كل صورة 4 ثوانٍ. اسحب العناصر لتغيير الترتيب؛ الصورة الرئيسية تبقى أولًا.",
+          "fields": [
+            {
+              "name": "image",
+              "label": "الصورة",
+              "type": "image",
+              "required": true,
+              "options": {
+                "extensions": [
+                  "jpg",
+                  "jpeg",
+                  "png",
+                  "webp"
+                ],
+                "rename": "safe"
+              }
+            },
+            {
+              "name": "alt",
+              "label": "وصف الصورة للوصول",
+              "type": "string",
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "theme",
+      "label": "🎨 الألوان والخطوط والمقاسات",
+      "type": "file",
+      "path": "src/data/theme.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "colors",
+          "label": "الألوان",
+          "type": "object",
+          "fields": [
+            {
+              "name": "primary",
+              "label": "اللون الرئيسي",
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$",
+              "required": true,
+              "description": "لون HEX مثل #126ba4؛ تأكد من وضوح النص فوق الخلفية."
+            },
+            {
+              "name": "accent",
+              "label": "اللون المساند",
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$",
+              "required": true,
+              "description": "لون HEX مثل #126ba4؛ تأكد من وضوح النص فوق الخلفية."
+            },
+            {
+              "name": "deep",
+              "label": "التذييل واللون الداكن",
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$",
+              "required": true,
+              "description": "لون HEX مثل #126ba4؛ تأكد من وضوح النص فوق الخلفية."
+            },
+            {
+              "name": "background",
+              "label": "خلفية الموقع",
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$",
+              "required": true,
+              "description": "لون HEX مثل #126ba4؛ تأكد من وضوح النص فوق الخلفية."
+            },
+            {
+              "name": "surface",
+              "label": "خلفية الأقسام الثانوية",
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$",
+              "required": true,
+              "description": "لون HEX مثل #126ba4؛ تأكد من وضوح النص فوق الخلفية."
+            },
+            {
+              "name": "soft",
+              "label": "خلفية المربعات الخفيفة",
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$",
+              "required": true,
+              "description": "لون HEX مثل #126ba4؛ تأكد من وضوح النص فوق الخلفية."
+            },
+            {
+              "name": "text",
+              "label": "النص الرئيسي",
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$",
+              "required": true,
+              "description": "لون HEX مثل #126ba4؛ تأكد من وضوح النص فوق الخلفية."
+            },
+            {
+              "name": "muted",
+              "label": "النص الثانوي",
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$",
+              "required": true,
+              "description": "لون HEX مثل #126ba4؛ تأكد من وضوح النص فوق الخلفية."
+            },
+            {
+              "name": "border",
+              "label": "الحدود",
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$",
+              "required": true,
+              "description": "لون HEX مثل #126ba4؛ تأكد من وضوح النص فوق الخلفية."
+            },
+            {
+              "name": "onPrimary",
+              "label": "النص فوق اللون الرئيسي",
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$",
+              "required": true,
+              "description": "لون HEX مثل #126ba4؛ تأكد من وضوح النص فوق الخلفية."
+            },
+            {
+              "name": "onAccent",
+              "label": "النص فوق اللون المساند",
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$",
+              "required": true,
+              "description": "لون HEX مثل #126ba4؛ تأكد من وضوح النص فوق الخلفية."
+            },
+            {
+              "name": "whatsapp",
+              "label": "لون زر واتساب",
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$",
+              "required": true,
+              "description": "لون HEX مثل #126ba4؛ تأكد من وضوح النص فوق الخلفية."
+            },
+            {
+              "name": "onWhatsapp",
+              "label": "نص وأيقونة واتساب",
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$",
+              "required": true,
+              "description": "لون HEX مثل #126ba4؛ تأكد من وضوح النص فوق الخلفية."
+            }
+          ]
+        },
+        {
+          "name": "font",
+          "label": "الخط",
+          "type": "select",
+          "required": true,
+          "options": {
+            "values": [
+              "Cairo",
+              "Tajawal",
+              "Noto Sans Arabic",
+              "system"
+            ]
+          }
+        },
+        {
+          "name": "bodyMobile",
+          "label": "حجم النص على الجوال",
+          "type": "number",
+          "required": true,
+          "options": {
+            "min": 14,
+            "max": 22
+          }
+        },
+        {
+          "name": "bodyDesktop",
+          "label": "حجم النص على الكمبيوتر",
+          "type": "number",
+          "required": true,
+          "options": {
+            "min": 16,
+            "max": 24
+          }
+        },
+        {
+          "name": "headingScale",
+          "label": "مقياس العناوين (1 = الحالي)",
+          "type": "number",
+          "required": true,
+          "options": {
+            "min": 0.8,
+            "max": 1.3
+          }
+        },
+        {
+          "name": "widthDesktop",
+          "label": "أقصى عرض على الكمبيوتر",
+          "type": "number",
+          "required": true,
+          "options": {
+            "min": 960,
+            "max": 1800
+          }
+        },
+        {
+          "name": "widthWide",
+          "label": "أقصى عرض للشاشات الواسعة",
+          "type": "number",
+          "required": true,
+          "options": {
+            "min": 1100,
+            "max": 2000
+          }
+        },
+        {
+          "name": "gutterMobile",
+          "label": "الهامش الجانبي للجوال",
+          "type": "number",
+          "required": true,
+          "options": {
+            "min": 12,
+            "max": 36
+          }
+        },
+        {
+          "name": "gutterDesktop",
+          "label": "الهامش الجانبي للكمبيوتر",
+          "type": "number",
+          "required": true,
+          "options": {
+            "min": 24,
+            "max": 120
+          }
+        },
+        {
+          "name": "logoWidthMobile",
+          "label": "عرض الشعار على الجوال",
+          "type": "number",
+          "required": true,
+          "options": {
+            "min": 28,
+            "max": 64
+          }
+        },
+        {
+          "name": "logoWidthDesktop",
+          "label": "عرض الشعار على الكمبيوتر",
+          "type": "number",
+          "required": true,
+          "options": {
+            "min": 40,
+            "max": 110
+          }
+        },
+        {
+          "name": "heroWidth",
+          "label": "أقصى عرض لصورة المكتب",
+          "type": "number",
+          "required": true,
+          "options": {
+            "min": 320,
+            "max": 1200
+          }
+        },
+        {
+          "name": "buttonRadius",
+          "label": "استدارة الأزرار",
+          "type": "number",
+          "required": true,
+          "options": {
+            "min": 0,
+            "max": 40
+          }
+        },
+        {
+          "name": "countryRadius",
+          "label": "استدارة أزرار الدول",
+          "type": "number",
+          "required": true,
+          "options": {
+            "min": 0,
+            "max": 40
+          }
+        },
+        {
+          "name": "imageRadius",
+          "label": "استدارة صورة المكتب",
+          "type": "number",
+          "required": true,
+          "options": {
+            "min": 0,
+            "max": 32
+          }
+        },
+        {
+          "name": "servicesColumns",
+          "label": "أعمدة الخدمات على الكمبيوتر",
+          "type": "number",
+          "required": true,
+          "options": {
+            "min": 1,
+            "max": 4
+          }
+        },
+        {
+          "name": "countriesColumns",
+          "label": "أعمدة الدول على الكمبيوتر",
+          "type": "number",
+          "required": true,
+          "options": {
+            "min": 2,
+            "max": 6
+          }
+        },
+        {
+          "name": "contactPosition",
+          "label": "موضع أزرار الاتصال",
+          "type": "select",
+          "options": {
+            "values": [
+              "left",
+              "right"
+            ]
+          },
+          "required": true
+        },
+        {
+          "name": "hoverDuration",
+          "label": "مدة حركة زر الاتصال بالثواني",
+          "type": "number",
+          "required": true,
+          "options": {
+            "min": 0.15,
+            "max": 0.8
+          }
+        }
+      ]
+    },
+    {
+      "name": "layout",
+      "label": "🧩 الأقسام والقوائم والعناصر",
+      "type": "file",
+      "path": "src/data/layout.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "sections",
+          "label": "ترتيب الأقسام وإظهارها",
+          "type": "object",
+          "list": {
+            "min": 9,
+            "max": 9,
+            "collapsible": {
+              "collapsed": true,
+              "summary": "{label}"
+            }
+          },
+          "fields": [
+            {
+              "name": "id",
+              "label": "القسم",
+              "type": "select",
+              "options": {
+                "values": [
+                  {
+                    "name": "hero",
+                    "label": "صورة المكتب"
+                  },
+                  {
+                    "name": "about",
+                    "label": "من نحن"
+                  },
+                  {
+                    "name": "steps",
+                    "label": "خطوات الاستقدام"
+                  },
+                  {
+                    "name": "why",
+                    "label": "لماذا نحن"
+                  },
+                  {
+                    "name": "services",
+                    "label": "الخدمات"
+                  },
+                  {
+                    "name": "cvs",
+                    "label": "الجنسيات والسير الذاتية"
+                  },
+                  {
+                    "name": "cta",
+                    "label": "دعوة التواصل"
+                  },
+                  {
+                    "name": "news",
+                    "label": "أخبار المكتب"
+                  },
+                  {
+                    "name": "contact",
+                    "label": "التواصل"
+                  }
+                ]
+              },
+              "required": true
+            },
+            {
+              "name": "label",
+              "label": "اسم القسم في اللوحة",
+              "type": "string"
+            },
+            {
+              "name": "enabled",
+              "label": "إظهار القسم",
+              "type": "boolean"
+            },
+            {
+              "name": "paddingMobile",
+              "label": "مسافة أعلى وأسفل على الجوال",
+              "type": "number",
+              "required": true,
+              "options": {
+                "min": 0,
+                "max": 100
+              }
+            },
+            {
+              "name": "paddingDesktop",
+              "label": "مسافة أعلى وأسفل على الكمبيوتر",
+              "type": "number",
+              "required": true,
+              "options": {
+                "min": 0,
+                "max": 120
+              }
+            },
+            {
+              "name": "background",
+              "label": "خلفية القسم",
+              "type": "select",
+              "options": {
+                "values": [
+                  "background",
+                  "surface",
+                  "soft",
+                  "primary",
+                  "deep"
+                ]
+              },
+              "required": true
+            }
+          ]
+        },
+        {
+          "name": "navigation",
+          "label": "قائمة التنقل",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "label",
+              "label": "عنوان الرابط",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "target",
+              "label": "القسم",
+              "type": "select",
+              "options": {
+                "values": [
+                  "hero",
+                  "about",
+                  "steps",
+                  "why",
+                  "services",
+                  "cvs",
+                  "cta",
+                  "news",
+                  "contact"
+                ]
+              },
+              "required": true
+            }
+          ]
+        },
+        {
+          "name": "showHeader",
+          "label": "إظهار رأس الصفحة",
+          "type": "boolean"
+        },
+        {
+          "name": "showRibbon",
+          "label": "إظهار الشريط الملون",
+          "type": "boolean"
+        },
+        {
+          "name": "showDate",
+          "label": "إظهار التاريخ",
+          "type": "boolean"
+        },
+        {
+          "name": "showFooter",
+          "label": "إظهار التذييل",
+          "type": "boolean"
+        },
+        {
+          "name": "showPhoneButton",
+          "label": "زر الاتصال العائم",
+          "type": "boolean"
+        },
+        {
+          "name": "showWhatsappButton",
+          "label": "زر واتساب العائم",
+          "type": "boolean"
+        },
+        {
+          "name": "showContactForm",
+          "label": "نموذج واتساب",
+          "type": "boolean"
+        },
+        {
+          "name": "showMap",
+          "label": "رابط الخريطة",
+          "type": "boolean"
+        },
+        {
+          "name": "showTicker",
+          "label": "شريط الترحيب",
+          "type": "boolean"
+        },
+        {
+          "name": "showAboutLogo",
+          "label": "الشعار داخل من نحن",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "name": "copy",
+      "label": "✍️ جميع عناوين الواجهة وأزرارها",
+      "type": "file",
+      "path": "src/data/copy.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "text001",
+          "label": "نص: انتقل إلى المحتوى",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text002",
+          "label": "نص: معاينة أولية · المحتوى بانتظار اعتماد المكتب · لم يُربط الكول سنت",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text003",
+          "label": "نص: من نحن",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text004",
+          "label": "نص: خدماتنا",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text005",
+          "label": "نص: السير الذاتية",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text006",
+          "label": "نص: تواصل معنا",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text007",
+          "label": "نص: جسر الشرق للاستقدام",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text008",
+          "label": "نص: تقديم طلب استقدام",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text009",
+          "label": "نص: بداية واضحة لطلبك",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text010",
+          "label": "نص: تواصل معنا لتحديد الخدمة المناسبة لاحتياج منزلك.",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text011",
+          "label": "نص: السير الذاتية والجنسيات",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text012",
+          "label": "نص: تعرف على خيارات الاستقدام، واستفسر عن التوفر الحالي لدى المكتب.",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text013",
+          "label": "نص: القائمة للاستفسار؛ تأكيد التوفر والتكلفة والمدة يكون من المكتب قب",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text014",
+          "label": "نص: ملفات السير الذاتية",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text015",
+          "label": "نص: لا توجد ملفات منشورة حاليًا. تواصل مع المكتب للاستفسار عن الخيارا",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text016",
+          "label": "نص: استفسر عبر واتساب",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text017",
+          "label": "نص: عرض الملف ↗",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text018",
+          "label": "نص: تحميل",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text019",
+          "label": "نص: استفسار واتساب",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text020",
+          "label": "نص: تصفح السير الذاتية",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text021",
+          "label": "نص: نحن هنا للإجابة عن استفساراتك",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text022",
+          "label": "نص: خدمة العملاء",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text023",
+          "label": "نص: البريد الإلكتروني",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text024",
+          "label": "نص: عرض موقع المكتب على الخريطة ↗",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text025",
+          "label": "نص: التعاقد والدفع عبر منصة مساند، ولا يتم تحصيل المدفوعات من هذا الم",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text026",
+          "label": "نص: الاسم",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text027",
+          "label": "نص: رقم التواصل",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text028",
+          "label": "نص: الموضوع",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text029",
+          "label": "نص: رسالتك",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text030",
+          "label": "نص: النموذج يجهّز رسالة واتساب فقط. لن تُرسل بياناتك إلا بعد فتح واتس",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text031",
+          "label": "نص: جهّز الرسالة لواتساب",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text032",
+          "label": "نص: افتح واتساب لإرسال الرسالة ↗",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text033",
+          "label": "نص: حول بيانات نموذج التواصل",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text034",
+          "label": "نص: الرياض · جميع الحقوق محفوظة",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text035",
+          "label": "نص: اتصل بنا",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text036",
+          "label": "نص: واتساب",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text037",
+          "label": "نص: للاستقدام",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text038",
+          "label": "نص: الرئيسية",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text039",
+          "label": "نص: الأخبار",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text040",
+          "label": "نص: جسر الشرق للاستقدام، الرئيسية",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text041",
+          "label": "نص: شعار جسر الشرق",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text042",
+          "label": "نص: التنقل الرئيسي",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text043",
+          "label": "نص: رؤية المملكة العربية السعودية 2030",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text044",
+          "label": "نص: فتح القائمة",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text045",
+          "label": "نص: روابط سريعة",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text046",
+          "label": "نص: واجهة مكتب جسر الشرق",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text047",
+          "label": "نص: أخبار المكتب",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text048",
+          "label": "نص: اسمك الكريم",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text049",
+          "label": "نص: كيف نقدر نساعدك؟",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text050",
+          "label": "نص: اكتب تفاصيل استفسارك",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text051",
+          "label": "نص: تواصل سريع",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text052",
+          "label": "نص: اتصل بالمكتب",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text053",
+          "label": "نص: تواصل عبر واتساب",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text054",
+          "label": "نص: العودة إلى أعلى الصفحة",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text055",
+          "label": "نص: قائمة التنقل",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text056",
+          "label": "نص: إغلاق القائمة",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text057",
+          "label": "نص: جديد أخبار",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "text058",
+          "label": "نص: مرجع الملف:",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "countryPrefix",
+          "label": "نص: السلام عليكم، أود الاستفسار عن الاستقدام من",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "profilePrefix",
+          "label": "نص: السلام عليكم، أود الاستفسار عن الملف:",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "profileRef",
+          "label": "نص: مرجع",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "formGreeting",
+          "label": "نص: السلام عليكم، لدي استفسار عن خدمات المكتب.",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "invalidPhone",
+          "label": "نص: يرجى إدخال رقم تواصل صحيح من 8 إلى 15 رقمًا.",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "requiredFields",
+          "label": "نص: يرجى تعبئة الحقول المطلوبة، وليس المسافات فقط.",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "draftReady",
+          "label": "نص: الرسالة جاهزة ولم تُرسل بعد. افتح واتساب ثم اضغط إرسال.",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "phonePlaceholder",
+          "label": "النص المساعد لحقل الهاتف",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "animations",
+      "label": "✨ حركة النصوص",
+      "type": "file",
+      "path": "src/data/animations.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "enabled",
+          "label": "تفعيل ظهور كلمات العناوين",
+          "type": "boolean",
+          "description": "العناوين الرئيسية والفرعية وعناوين الخطوات فقط؛ الفقرات والتسميات والنصوص الصغيرة ثابتة في جميع الأقسام."
+        },
+        {
+          "name": "duration",
+          "label": "مدة ظهور كل كلمة بالثواني",
+          "type": "number",
+          "required": true,
+          "options": {
+            "min": 0.2,
+            "max": 2
+          },
+          "description": "السرعة الافتراضية الأبطأ: 0.9 ثانية لكل كلمة."
+        },
+        {
+          "name": "stagger",
+          "label": "الفاصل بين الكلمات بالثواني",
+          "type": "number",
+          "required": true,
+          "options": {
+            "min": 0,
+            "max": 0.2
+          },
+          "description": "الفاصل الافتراضي: 0.08 ثانية بين الكلمات."
+        },
+        {
+          "name": "start",
+          "label": "بداية الظهور عند % من الشاشة",
+          "type": "number",
+          "required": true,
+          "options": {
+            "min": 60,
+            "max": 100
+          }
+        }
+      ]
+    },
+    {
+      "name": "news",
+      "label": "أخبار المكتب",
+      "type": "file",
+      "path": "src/data/news.json",
+      "format": "json",
+      "list": true,
+      "fields": [
+        {
+          "name": "title",
+          "label": "عنوان الخبر",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "date",
+          "label": "التاريخ YYYY-MM-DD",
+          "type": "string",
+          "required": true,
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        {
+          "name": "image",
+          "label": "صورة الخبر (اختياري)",
+          "type": "image",
+          "options": {
+            "extensions": [
+              "jpg",
+              "jpeg",
+              "png",
+              "webp"
+            ],
+            "rename": "safe"
+          }
+        },
+        {
+          "name": "body",
+          "label": "نص الخبر",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "published",
+          "label": "نشر الخبر",
+          "type": "boolean"
+        }
+      ]
+    },
+    {
+      "name": "profiles",
+      "label": "ملفات السير الذاتية",
+      "type": "file",
+      "path": "src/data/profiles.json",
+      "format": "json",
+      "list": true,
+      "fields": [
+        {
+          "name": "reference",
+          "label": "مرجع الملف",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "title",
+          "label": "عنوان الملف",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "country",
+          "label": "الجنسية",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "description",
+          "label": "وصف مختصر (اختياري)",
+          "type": "text"
+        },
+        {
+          "name": "file",
+          "label": "ملف PDF مصرح بالنشر العام",
+          "type": "file",
+          "required": true,
+          "options": {
+            "extensions": [
+              "pdf"
+            ],
+            "rename": "safe"
+          }
+        },
+        {
+          "name": "published",
+          "label": "عرض الملف في الموقع",
+          "type": "boolean"
+        }
+      ]
+    }
+  ]
+}

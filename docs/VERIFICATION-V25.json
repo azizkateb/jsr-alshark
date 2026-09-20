@@ -1,0 +1,617 @@
+{
+  "results": [
+    {
+      "width": 1568,
+      "titles": [
+        {
+          "text": "جسر الشرقللاستقدام",
+          "section": "about",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "مكتب جسر الشرق للاستقدام",
+          "section": "about",
+          "mounted": true,
+          "words": 4
+        },
+        {
+          "text": "التعاقد مع جسر الشرق صار أسهل",
+          "section": "steps",
+          "mounted": true,
+          "words": 6
+        },
+        {
+          "text": "التأشيرة عبر مساند",
+          "section": "steps",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "اختيار الجنسية",
+          "section": "steps",
+          "mounted": true,
+          "words": 2
+        },
+        {
+          "text": "الاطلاع على السير الذاتية",
+          "section": "steps",
+          "mounted": true,
+          "words": 4
+        },
+        {
+          "text": "التعاقد ومتابعة الطلب",
+          "section": "steps",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "لماذا جسر الشرق؟",
+          "section": "why",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "خدماتنا",
+          "section": "services",
+          "mounted": true,
+          "words": 1
+        },
+        {
+          "text": "استقدام العمالة المنزلية",
+          "section": "services",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "استقدام سائق خاص",
+          "section": "services",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "عرض السير الذاتية",
+          "section": "services",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "الاستفسارات والمتابعة",
+          "section": "services",
+          "mounted": true,
+          "words": 2
+        },
+        {
+          "text": "السير الذاتية والجنسيات",
+          "section": "cvs",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "ملفات السير الذاتية",
+          "section": "cvs",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "هل أنت جاهز لطلب الاستقدام؟",
+          "section": "cta",
+          "mounted": true,
+          "words": 5
+        },
+        {
+          "text": "خدمة العملاء",
+          "section": "contact",
+          "mounted": true,
+          "words": 2
+        },
+        {
+          "text": "مكتب جسر الشرق للاستقدام",
+          "section": "contact",
+          "mounted": true,
+          "words": 4
+        },
+        {
+          "text": "تواصل معنا",
+          "section": "contact",
+          "mounted": true,
+          "words": 2
+        }
+      ],
+      "wordReveal": "PASS",
+      "doubleAnimation": "none",
+      "reducedMotion": "PASS"
+    },
+    {
+      "width": 1024,
+      "titles": [
+        {
+          "text": "جسر الشرقللاستقدام",
+          "section": "about",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "مكتب جسر الشرق للاستقدام",
+          "section": "about",
+          "mounted": true,
+          "words": 4
+        },
+        {
+          "text": "التعاقد مع جسر الشرق صار أسهل",
+          "section": "steps",
+          "mounted": true,
+          "words": 6
+        },
+        {
+          "text": "التأشيرة عبر مساند",
+          "section": "steps",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "اختيار الجنسية",
+          "section": "steps",
+          "mounted": true,
+          "words": 2
+        },
+        {
+          "text": "الاطلاع على السير الذاتية",
+          "section": "steps",
+          "mounted": true,
+          "words": 4
+        },
+        {
+          "text": "التعاقد ومتابعة الطلب",
+          "section": "steps",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "لماذا جسر الشرق؟",
+          "section": "why",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "خدماتنا",
+          "section": "services",
+          "mounted": true,
+          "words": 1
+        },
+        {
+          "text": "استقدام العمالة المنزلية",
+          "section": "services",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "استقدام سائق خاص",
+          "section": "services",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "عرض السير الذاتية",
+          "section": "services",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "الاستفسارات والمتابعة",
+          "section": "services",
+          "mounted": true,
+          "words": 2
+        },
+        {
+          "text": "السير الذاتية والجنسيات",
+          "section": "cvs",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "ملفات السير الذاتية",
+          "section": "cvs",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "هل أنت جاهز لطلب الاستقدام؟",
+          "section": "cta",
+          "mounted": true,
+          "words": 5
+        },
+        {
+          "text": "خدمة العملاء",
+          "section": "contact",
+          "mounted": true,
+          "words": 2
+        },
+        {
+          "text": "مكتب جسر الشرق للاستقدام",
+          "section": "contact",
+          "mounted": true,
+          "words": 4
+        },
+        {
+          "text": "تواصل معنا",
+          "section": "contact",
+          "mounted": true,
+          "words": 2
+        }
+      ],
+      "wordReveal": "PASS",
+      "doubleAnimation": "none",
+      "reducedMotion": "PASS"
+    },
+    {
+      "width": 768,
+      "titles": [
+        {
+          "text": "جسر الشرقللاستقدام",
+          "section": "about",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "مكتب جسر الشرق للاستقدام",
+          "section": "about",
+          "mounted": true,
+          "words": 4
+        },
+        {
+          "text": "التعاقد مع جسر الشرق صار أسهل",
+          "section": "steps",
+          "mounted": true,
+          "words": 6
+        },
+        {
+          "text": "التأشيرة عبر مساند",
+          "section": "steps",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "اختيار الجنسية",
+          "section": "steps",
+          "mounted": true,
+          "words": 2
+        },
+        {
+          "text": "الاطلاع على السير الذاتية",
+          "section": "steps",
+          "mounted": true,
+          "words": 4
+        },
+        {
+          "text": "التعاقد ومتابعة الطلب",
+          "section": "steps",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "لماذا جسر الشرق؟",
+          "section": "why",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "خدماتنا",
+          "section": "services",
+          "mounted": true,
+          "words": 1
+        },
+        {
+          "text": "استقدام العمالة المنزلية",
+          "section": "services",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "استقدام سائق خاص",
+          "section": "services",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "عرض السير الذاتية",
+          "section": "services",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "الاستفسارات والمتابعة",
+          "section": "services",
+          "mounted": true,
+          "words": 2
+        },
+        {
+          "text": "السير الذاتية والجنسيات",
+          "section": "cvs",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "ملفات السير الذاتية",
+          "section": "cvs",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "هل أنت جاهز لطلب الاستقدام؟",
+          "section": "cta",
+          "mounted": true,
+          "words": 5
+        },
+        {
+          "text": "خدمة العملاء",
+          "section": "contact",
+          "mounted": true,
+          "words": 2
+        },
+        {
+          "text": "مكتب جسر الشرق للاستقدام",
+          "section": "contact",
+          "mounted": true,
+          "words": 4
+        },
+        {
+          "text": "تواصل معنا",
+          "section": "contact",
+          "mounted": true,
+          "words": 2
+        }
+      ],
+      "wordReveal": "PASS",
+      "doubleAnimation": "none",
+      "reducedMotion": "PASS"
+    },
+    {
+      "width": 390,
+      "titles": [
+        {
+          "text": "جسر الشرقللاستقدام",
+          "section": "about",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "مكتب جسر الشرق للاستقدام",
+          "section": "about",
+          "mounted": true,
+          "words": 4
+        },
+        {
+          "text": "التعاقد مع جسر الشرق صار أسهل",
+          "section": "steps",
+          "mounted": true,
+          "words": 6
+        },
+        {
+          "text": "التأشيرة عبر مساند",
+          "section": "steps",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "اختيار الجنسية",
+          "section": "steps",
+          "mounted": true,
+          "words": 2
+        },
+        {
+          "text": "الاطلاع على السير الذاتية",
+          "section": "steps",
+          "mounted": true,
+          "words": 4
+        },
+        {
+          "text": "التعاقد ومتابعة الطلب",
+          "section": "steps",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "لماذا جسر الشرق؟",
+          "section": "why",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "خدماتنا",
+          "section": "services",
+          "mounted": true,
+          "words": 1
+        },
+        {
+          "text": "استقدام العمالة المنزلية",
+          "section": "services",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "استقدام سائق خاص",
+          "section": "services",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "عرض السير الذاتية",
+          "section": "services",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "الاستفسارات والمتابعة",
+          "section": "services",
+          "mounted": true,
+          "words": 2
+        },
+        {
+          "text": "السير الذاتية والجنسيات",
+          "section": "cvs",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "ملفات السير الذاتية",
+          "section": "cvs",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "هل أنت جاهز لطلب الاستقدام؟",
+          "section": "cta",
+          "mounted": true,
+          "words": 5
+        },
+        {
+          "text": "خدمة العملاء",
+          "section": "contact",
+          "mounted": true,
+          "words": 2
+        },
+        {
+          "text": "مكتب جسر الشرق للاستقدام",
+          "section": "contact",
+          "mounted": true,
+          "words": 4
+        },
+        {
+          "text": "تواصل معنا",
+          "section": "contact",
+          "mounted": true,
+          "words": 2
+        }
+      ],
+      "wordReveal": "PASS",
+      "doubleAnimation": "none",
+      "reducedMotion": "PASS"
+    },
+    {
+      "width": 320,
+      "titles": [
+        {
+          "text": "جسر الشرقللاستقدام",
+          "section": "about",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "مكتب جسر الشرق للاستقدام",
+          "section": "about",
+          "mounted": true,
+          "words": 4
+        },
+        {
+          "text": "التعاقد مع جسر الشرق صار أسهل",
+          "section": "steps",
+          "mounted": true,
+          "words": 6
+        },
+        {
+          "text": "التأشيرة عبر مساند",
+          "section": "steps",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "اختيار الجنسية",
+          "section": "steps",
+          "mounted": true,
+          "words": 2
+        },
+        {
+          "text": "الاطلاع على السير الذاتية",
+          "section": "steps",
+          "mounted": true,
+          "words": 4
+        },
+        {
+          "text": "التعاقد ومتابعة الطلب",
+          "section": "steps",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "لماذا جسر الشرق؟",
+          "section": "why",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "خدماتنا",
+          "section": "services",
+          "mounted": true,
+          "words": 1
+        },
+        {
+          "text": "استقدام العمالة المنزلية",
+          "section": "services",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "استقدام سائق خاص",
+          "section": "services",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "عرض السير الذاتية",
+          "section": "services",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "الاستفسارات والمتابعة",
+          "section": "services",
+          "mounted": true,
+          "words": 2
+        },
+        {
+          "text": "السير الذاتية والجنسيات",
+          "section": "cvs",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "ملفات السير الذاتية",
+          "section": "cvs",
+          "mounted": true,
+          "words": 3
+        },
+        {
+          "text": "هل أنت جاهز لطلب الاستقدام؟",
+          "section": "cta",
+          "mounted": true,
+          "words": 5
+        },
+        {
+          "text": "خدمة العملاء",
+          "section": "contact",
+          "mounted": true,
+          "words": 2
+        },
+        {
+          "text": "مكتب جسر الشرق للاستقدام",
+          "section": "contact",
+          "mounted": true,
+          "words": 4
+        },
+        {
+          "text": "تواصل معنا",
+          "section": "contact",
+          "mounted": true,
+          "words": 2
+        }
+      ],
+      "wordReveal": "PASS",
+      "doubleAnimation": "none",
+      "reducedMotion": "PASS"
+    }
+  ],
+  "studio": "PASS title word reveals across new sections",
+  "accessibility": "PASS reduced-motion and disabled setting",
+  "limits": "Native preview/studio tested. Actual GSAP plugins/production build not run; dependencies unavailable. External fonts/maps blocked."
+}
