@@ -1,9 +1,9 @@
 {
   "colors": {
-    "primary": "#70a5eb",
-    "accent": "#0085ac",
-    "deep": "#0e345a",
-    "background": "#fafcfe",
+    "primary": "#7aa9e6",
+    "accent": "#56a1b8",
+    "deep": "#87baed",
+    "background": "#ffffff",
     "surface": "#edf2f7",
     "soft": "#dee9f3",
     "text": "#2e3439",
@@ -14,7 +14,7 @@
     "whatsapp": "#00d85c",
     "onWhatsapp": "#fafcfe"
   },
-  "font": "Cairo",
+  "font": "Tajawal",
   "bodyMobile": 16,
   "bodyDesktop": 18,
   "headingScale": 1,
