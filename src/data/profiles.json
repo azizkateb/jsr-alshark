@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "reference": "test",
+    "title": "test",
+    "country": "test",
+    "description": "test",
+    "file": "/media/upload-1789922749701-57bbee.pdf",
+    "published": true
+  }
+]
