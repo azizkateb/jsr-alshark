@@ -1,11 +1,18 @@
 const runtime=JSON.parse(document.getElementById('site-runtime')?.textContent||'{}');
 const ui=runtime.copy||{};
 
-const menu=document.getElementById('menu');const openButton=document.getElementById('menu-open');let lastFocus;
-openButton.addEventListener('click',()=>{lastFocus=document.activeElement;menu.showModal();document.body.style.overflow='hidden'});
-function closeMenu(){menu.close()};document.getElementById('menu-close').addEventListener('click',closeMenu);
-menu.addEventListener('close',()=>{document.body.style.overflow='';lastFocus?.focus()});menu.addEventListener('click',e=>{if(e.target===menu){const r=menu.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeMenu()}});
-menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
+const menu=document.getElementById('menu');const openButton=document.getElementById('menu-open');const closeButton=document.getElementById('menu-close');let lastFocus=null;let closeTimer=null;let openRaf1=0;let openRaf2=0;let restoreFocus=true;const CLOSE_MS=220;const reducedMotion=()=>window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+function setExpanded(v){openButton.setAttribute('aria-expanded',v?'true':'false')}setExpanded(false);
+function clearMenuTimers(){if(closeTimer){clearTimeout(closeTimer);closeTimer=null}if(openRaf1){cancelAnimationFrame(openRaf1);openRaf1=0}if(openRaf2){cancelAnimationFrame(openRaf2);openRaf2=0}}
+function openMenu(){clearMenuTimers();restoreFocus=true;if(menu.open){menu.classList.remove('is-closing');void menu.offsetWidth;menu.classList.add('is-open');setExpanded(true);return}lastFocus=document.activeElement;try{menu.showModal()}catch{return}document.body.style.overflow='hidden';setExpanded(true);menu.classList.remove('is-closing');if(reducedMotion()){menu.classList.add('is-open');return}openRaf1=requestAnimationFrame(()=>{openRaf1=0;openRaf2=requestAnimationFrame(()=>{openRaf2=0;if(menu.open)menu.classList.add('is-open')})})}
+function closeMenu(opts){const o=opts||{};if(!menu.open){clearMenuTimers();menu.classList.remove('is-open','is-closing');setExpanded(false);return}restoreFocus=o.returnFocus!==false;clearMenuTimers();setExpanded(false);if(reducedMotion()||o.instant){menu.classList.remove('is-open','is-closing');if(menu.open)menu.close();return}menu.classList.remove('is-open');void menu.offsetWidth;menu.classList.add('is-closing');closeTimer=setTimeout(()=>{closeTimer=null;if(menu.open)menu.close()},CLOSE_MS)}
+openButton.addEventListener('click',()=>{if(!menu.open||menu.classList.contains('is-closing'))openMenu();else closeMenu()});
+closeButton.addEventListener('click',()=>closeMenu());
+menu.addEventListener('cancel',e=>{e.preventDefault();closeMenu()});
+menu.addEventListener('close',()=>{clearMenuTimers();document.body.style.overflow='';menu.classList.remove('is-open','is-closing');setExpanded(false);const target=(lastFocus&&document.contains(lastFocus))?lastFocus:openButton;if(restoreFocus&&target&&typeof target.focus==='function'){try{target.focus({preventScroll:true})}catch{try{target.focus()}catch{}}}restoreFocus=true});
+menu.addEventListener('click',e=>{if(e.target===menu){const r=menu.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeMenu()}});
+menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>closeMenu()));
+const desktopMQ=window.matchMedia('(min-width: 901px)');function handleViewport(){if(desktopMQ.matches&&menu.open)closeMenu({instant:true,returnFocus:false})}if(typeof desktopMQ.addEventListener==='function')desktopMQ.addEventListener('change',handleViewport);else if(typeof desktopMQ.addListener==='function')desktopMQ.addListener(handleViewport);
 const today=document.getElementById('today');today.textContent=new Intl.DateTimeFormat('ar-SA-u-ca-gregory',{day:'numeric',month:'long',year:'numeric',timeZone:'Asia/Riyadh'}).format(new Date());document.getElementById('year').textContent=String(new Date().getFullYear());
 const topButton=document.getElementById('back-top');function setTop(){topButton.hidden=window.scrollY<500}window.addEventListener('scroll',setTop,{passive:true});setTop();topButton.addEventListener('click',()=>window.scrollTo({top:0,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'}));
 const form=document.getElementById('contact-form');const result=document.getElementById('form-result');const status=document.getElementById('form-status');if(form){form.addEventListener('input',()=>{result.hidden=true;result.removeAttribute('href');status.textContent=''});
