@@ -1,0 +1,5 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [{"source":"/studio","destination":"/api/studio?action=editor"},{"source":"/studio/","destination":"/api/studio?action=editor"}],
+  "functions": {"api/studio.js":{"maxDuration":60,"includeFiles":"tools/site-customizer-cloud.html"}}
+}
