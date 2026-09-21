@@ -15,6 +15,6 @@ const {config} = Astro.props;
 {['steps','why','services'].includes(config.id) && <PremiumSections sectionId={config.id} />}
 {['cvs','cta'].includes(config.id) && <CVSections sectionId={config.id} />}
 {config.id === "news" && (<>
-<section class="container section news" id="news" hidden={news.length === 0} aria-label={copy.text047} data-section="news">{news.length > 0 && <><div class="section-heading"><h2>{copy.text057} {site.shortName}</h2></div>{news.map(article => <article><h3>{article.title}</h3><time datetime={article.date}>{formatDate(article.date)}</time>{article.image && <img src={assetUrl(article.image)} alt={article.title} loading="lazy"/>}<p>{article.body}</p></article>)}</>}</section>
+<section class="container section news" id="news" hidden={news.length === 0} aria-label={copy.text047} data-section="news">{news.length > 0 && <><div class="section-heading"><h2>{copy.text057} {site.shortName}</h2></div><div class="news-grid">{news.map(article => <article class="news-card"><div class="news-card-media">{article.image ? <img src={assetUrl(article.image)} alt={article.title} loading="lazy" decoding="async"/> : <span class="news-card-placeholder" aria-hidden="true">جسر الشرق</span>}</div><div class="news-card-content"><div class="news-card-meta"><time datetime={article.date}>{formatDate(article.date)}</time><span aria-hidden="true">خبر</span></div><h3>{article.title}</h3><p>{article.body}</p></div></article>)}</div></>}</section>
 </>)}
 {config.id === "contact" && <ContactSection />}
