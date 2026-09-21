@@ -1,8 +1,8 @@
 {
   "colors": {
     "primary": "#29cdff",
-    "accent": "#0a84f8",
-    "deep": "#0e345a",
+    "accent": "#29cdff",
+    "deep": "#29cdff",
     "background": "#fafcfe",
     "surface": "#edf2f7",
     "soft": "#dee9f3",

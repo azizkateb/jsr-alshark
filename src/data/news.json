@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "title": "test",
+    "date": "2026-09-21",
+    "image": "/media/upload-1790012446119-1e4f95.webp",
+    "body": "خبر تجريبي ",
+    "published": true
+  }
+]
